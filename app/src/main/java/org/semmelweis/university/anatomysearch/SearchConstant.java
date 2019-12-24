@@ -65,6 +65,21 @@ class SearchConstant {
         addPartsToMap(R.drawable.body, "Body Organs", "Thymus", R.drawable.thymus);
         addPartsToMap(R.drawable.body, "Body Organs", "Thyroid", R.drawable.thyroid);
         addPartsToMap(R.drawable.body, "Body Organs", "Urinary System", R.drawable.urinary_system);
+
+        //details
+        addPartsToMap(R.drawable.atlas_details, "Atlas details", "Atlas details", R.drawable.atlas_details);
+        addPartsToMap(R.drawable.axis_details, "Axis details", "Axis details", R.drawable.axis_details);
+        addPartsToMap(R.drawable.bone_details, "Bone details", "Bone details", R.drawable.bone_details);
+        addPartsToMap(R.drawable.cervical_vertebrae_details, "Cervical Vertebrae details", "Cervical Vertebrae details", R.drawable.cervical_vertebrae_details);
+        addPartsToMap(R.drawable.joint_details, "Joint details", "Joint details", R.drawable.joint_details);
+        addPartsToMap(R.drawable.lumbar_vertebrae_details, "Lumbar Vertebrae details", "Lumbar Vertebrae details", R.drawable.lumbar_vertebrae_details);
+        addPartsToMap(R.drawable.muscle_details, "Muscle details", "Muscle details", R.drawable.muscle_details);
+        addPartsToMap(R.drawable.muscle_fiber_details, "Muscle Fiber details", "Muscle Fiber details", R.drawable.muscle_fiber_details);
+        addPartsToMap(R.drawable.muscle_motor_unit, "Muscle Motor Unit", "Muscle Motor Unit details", R.drawable.muscle_motor_unit);
+        addPartsToMap(R.drawable.muscle_shape_details, "Muscle Shape details", "Muscle Shape details", R.drawable.muscle_shape_details);
+        addPartsToMap(R.drawable.sacrum_details, "Sacrum details", "Sacrum details", R.drawable.sacrum_details);
+        addPartsToMap(R.drawable.spina_joints, "Spina Joints", "Spina Joints details", R.drawable.spina_joints);
+        addPartsToMap(R.drawable.thoratic_vertebrae_details, "Thoratic Vertebrae details", "Thoratic Vertebrae details", R.drawable.thoratic_vertebrae_details);
     }
 
     private static void addPartsToMap(Integer imageId, String numbers, String partName, Integer selectorId) {
